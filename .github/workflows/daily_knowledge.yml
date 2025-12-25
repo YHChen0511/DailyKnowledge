@@ -1,5 +1,8 @@
 name: Daily Knowledge Push
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # Run at 00:00 UTC (08:00 Beijing Time)
